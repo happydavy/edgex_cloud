@@ -107,11 +107,6 @@ const HeaderBar = ({ onMobileMenuToggle, drawerOpen }) => {
       itemKey: 'console',
       to: '/console',
     },
-    {
-      text: t('定价'),
-      itemKey: 'pricing',
-      to: '/pricing',
-    },
     ...(docsLink
       ? [
         {
