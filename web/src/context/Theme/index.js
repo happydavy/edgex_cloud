@@ -9,9 +9,9 @@ export const useSetTheme = () => useContext(SetThemeContext);
 export const ThemeProvider = ({ children }) => {
   const [theme, _setTheme] = useState(() => {
     try {
-      return localStorage.getItem('theme-mode') || null;
+      return localStorage.getItem('theme-mode') || 'dark';
     } catch {
-      return null;
+      return 'dark';
     }
   });
 
