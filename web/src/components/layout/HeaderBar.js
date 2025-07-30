@@ -478,12 +478,12 @@ const HeaderBar = ({ onMobileMenuToggle, drawerOpen }) => {
                 placeholder={
                   <Skeleton.Image
                     active
-                    className="h-7 md:h-8 !rounded-full"
+                    className="h-7 md:h-8"
                     style={{ width: 32, height: 32 }}
                   />
                 }
               >
-                <img src={logo} alt="logo" className="h-7 md:h-8 transition-transform duration-300 ease-in-out group-hover:scale-105 rounded-full" />
+                <img src={logo} alt="logo" className="h-7 md:h-8 transition-transform duration-300 ease-in-out group-hover:scale-105" />
               </Skeleton>
               <div className="hidden md:flex items-center gap-2">
                 <div className="flex items-center gap-2">
